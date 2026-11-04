@@ -25,8 +25,8 @@ I'm least sure about how overlapping qualifying windows should be handled. The c
 
 The work was completed in multiple sessions rather than in one continuous sitting. I worked on the assignment for a few hours or minutes at a time, switched to other tasks, and returned later to continue.
 
-6. Anything you'd do differently with more time
-I considered real-time detection, where each incoming transaction triggers Python to fetch the account's recent transaction history fron database and evaluate the rolling window. I chose batch processing because the assignment provides a static CSV dataset and does not require streaming infrastructure.
+6. Anything you'd do differently with more time ->
+I considered real-time detection, where each incoming transaction triggers Python to fetch the account's recent transaction history from database and evaluate the rolling window. I chose batch processing because the assignment provides a static CSV dataset and does not require streaming infrastructure.
 
 
 
