@@ -1,0 +1,6 @@
+
+{
+    "reporting_threshold": 50000,
+    "rolling_window_hours": 24,
+    "min_transaction_count": 3
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "account_id": "ACC-1001",
+        "transaction_ids": [
+            "T1000",
+            "T1001",
+            "T1002",
+            "T1003"
+        ],
+        "transaction_count": 4,
+        "total_amount": 52500.0,
+        "threshold": 50000.0,
+        "window_hours": 24,
+        "window_start": "2026-01-06T08:00:00+00:00",
+        "window_end": "2026-01-06T17:00:00+00:00",
+        "explanation": "Account ACC-1001 has generated four transactions (T1000–T1003) within a 24‑hour window from 08:00 to 17:00 UTC on 2026‑01‑06. Each individual transaction was below the ₹50,000 threshold, but the combined value of ₹52,500 exceeds that limit. The transactions occurred over an actual duration of 9.0 hours. A further analyst review is recommended to assess the context and intent of these movements."
+    },
+    {
+        "account_id": "ACC-1004",
+        "transaction_ids": [
+            "T1013",
+            "T1014",
+            "T1015",
+            "T1016"
+        ],
+        "transaction_count": 4,
+        "total_amount": 52600.0,
+        "threshold": 50000.0,
+        "window_hours": 24,
+        "window_start": "2026-01-29T14:00:00+00:00",
+        "window_end": "2026-01-30T14:00:00+00:00",
+        "explanation": "The account ACC-1004 recorded four transactions (T1013–T1016) within a 24‑hour window from 2026‑01‑29T14:00:00+00:00 to 2026‑01‑30T14:00:00+00:00. Each individual transaction remained below the threshold of ₹50,000.0, but the cumulative value reached ₹52,600.0, exceeding the set limit. The total activity spanned exactly 24.0 hours, matching the defined window. A detailed analyst review is recommended to assess the context and intent of these transfers."
+    }
+]
