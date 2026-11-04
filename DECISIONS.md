@@ -16,8 +16,17 @@ I did not use the LLM to detect or decide which accounts should be flagged.
 4. What you're least sure about->
 I'm least sure about how overlapping qualifying windows should be handled. The current implementation may generate multiple evidence sets for the same account when different starting transactions qualify. 
 
-5. Time spent and where it went
+### 5. Time Spent and Breakdown
 
+- **30 minutes:** Reading and understanding the assignment requirements.
+- **2–3 hours:** Core implementation and development.
+- **Approximately 1 hour:** Testing and debugging.
+- **40–50 minutes:** Documentation and preparation of the final submission.
+
+The work was completed in multiple sessions rather than in one continuous sitting. I worked on the assignment for a few hours or minutes at a time, switched to other tasks, and returned later to continue.
 
 6. Anything you'd do differently with more time
 I considered real-time detection, where each incoming transaction triggers Python to fetch the account's recent transaction history fron database and evaluate the rolling window. I chose batch processing because the assignment provides a static CSV dataset and does not require streaming infrastructure.
+
+
+
