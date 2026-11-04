@@ -1,28 +1,6 @@
-
 # Transaction Pattern Detector
 
-A Python-based system that detects potential structuring patterns in financial transactions using deterministic rules and generates analyst-friendly explanations using an LLM.
-
-## Project Architecture
-
-```mermaid
-flowchart TD
-    A["transactions.csv"] --> C["main.py"]
-    B["config.json"] --> C
-
-    C --> D["detector/structuring.py"]
-    D --> E["Structured Evidence"]
-
-    E --> F["llm_response/llm_explanation.py"]
-    F --> G["Groq API"]
-    G --> H["Analyst-Friendly Explanation"]
-
-    H --> I["output/results.json"]
-
-    J["detector/test.py"] --> K["pytest"]
-    K -.-> D
-```
-
+A Python-based system that detects potential structuring patterns in financial transactions using deterministic, rule-based detection and generates analyst-friendly explanations using an LLM.
 ### How It Works
 
 - **Python Detector (`structuring.py`):** Filters eligible credit transactions, groups them by account, checks individual amounts, minimum transaction count, combined amount, and rolling time window.
